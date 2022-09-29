@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Fix Canvas CPU",
+    "version": "1.0",
+    "description": "",
+    "content_scripts": [
+        {
+            "matches": ["*://canvas.uva.nl/*"],
+            "js": ["inject.js"]
+        }
+    ]
+}
